@@ -442,11 +442,11 @@ ul.thumbs > li img { box-shadow:0 0 4px rgba(0, 0, 0, 0.5); }
 body, #container-wrap { background:#ededed; }
 :-webkit-full-screen { background:#ededed; }
 #loadIndicator span:after { padding-left:1ex; content:'loading content...'; }
-#slider { width:1242px; height:2172px; }
-.page-scale-wrap { width:1242px; height:2172px; background: #fff !important; }
+#slider { width:1242px; height:2687px; }
+.page-scale-wrap { width:1242px; height:2687px; background: #fff !important; }
 .paper-vertical { width:1242px; height:100%; }
-.paper-horizontal { width:7512px; height:2184px; }
-@media all and (max-height:2172px) {
+.paper-horizontal { width:3756px; height:2699px; }
+@media all and (max-height:2687px) {
 	.paper-horizontal { margin:0;top:0;}
 	#container > .page { margin:0 auto;}/*pos top for webkit+baker*/
 }
@@ -464,19 +464,60 @@ body, #container-wrap { background:#ededed; }
 .fs-hide-viewdisp:-webkit-full-screen #viewer-options-wrap {display:none !important;}
 .fs-hide-viewdisp:-ms-full-screen #viewer-options-wrap {display:none !important;}
 .fs-hide-viewdisp:-moz-full-screen #viewer-options-wrap {display:none !important;}
+.pageItem.fixed-pos-elem { position:fixed !important; }
+.fixed-center-x {
+    left:50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.fixed-center-y {
+	top:50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.fixed-center-y.fixed-center-x {
+	-webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#item6180 {
+	width:978px !important;
+	left:132px !important;
+	top:1094px !important;
+	min-height:197px !important;
+}
 
-#item10903 {
-	width:435px !important;
-	height:60px !important;
-	border-radius:27px;
+#item7487 {
+	width:981px !important;
+	left:125px !important;
+	top:584px !important;
+	min-height:426px !important;
+}
+
+#item7510 {
+	width:557px !important;
+	left:130px !important;
+	top:160px !important;
+	min-height:115px !important;
+}
+
+#item7533 {
+	width:981px !important;
+	left:130px !important;
+	top:346px !important;
+	min-height:185px !important;
+}
+
+#item15909 {
+	width:1072px !important;
+	height:116px !important;
 	background:#002f6c;
 }
 
-#item11267 {
-	width:435px !important;
-	height:60px !important;
-	left:85px !important;
-	top:2028px !important;
+#item15910 {
+	width:924px !important;
+	left:74px !important;
+	top:30px !important;
+	min-height:56px !important;
 }
 
 @keyframes 사라지기-15232 {
@@ -500,7 +541,90 @@ body, #container-wrap { background:#ededed; }
 	width:142px !important;
 	height:186px !important;
 	left:1100px !important;
-	top:966px !important;
+	top:1077px !important;
+}
+
+#item15296 {
+	width:1242px !important;
+	height:166px !important;
+	background:#fff;
+}
+
+#item15298 {
+	width:66px !important;
+	height:5px !important;
+	background:#000;
+}
+
+#item15299 {
+	width:66px !important;
+	height:5px !important;
+	top:31px !important;
+	background:#000;
+}
+
+#item15300 {
+	width:66px !important;
+	height:5px !important;
+	top:62px !important;
+	background:#000;
+}
+
+#item15309 {
+	width:12px !important;
+	height:49px !important;
+	left:480px !important;
+	top:10px !important;
+	background:#002c5f;
+}
+
+#item15905.fixed-pos-elem {
+	width:0px !important;
+	height:167px !important;
+	-webkit-transform-origin:0 0 0;
+	transform-origin:0 0 0;
+}
+
+#item10835 {
+	width:1014px !important;
+	left:125px !important;
+	top:1235px !important;
+	min-height:56px !important;
+}
+
+#item10011 {
+	width:1045px !important;
+	left:125px !important;
+	top:604px !important;
+	min-height:522px !important;
+}
+
+#item10034 {
+	width:655px !important;
+	left:130px !important;
+	top:160px !important;
+	min-height:115px !important;
+}
+
+#item10057 {
+	width:981px !important;
+	left:130px !important;
+	top:346px !important;
+	min-height:185px !important;
+}
+
+#item10997 {
+	width:902px !important;
+	left:159px !important;
+	top:1317px !important;
+	min-height:102px !important;
+}
+
+#item11364 {
+	width:998px !important;
+	left:159px !important;
+	top:1675px !important;
+	min-height:150px !important;
 }
 
 @keyframes 왼쪽에서날아오기-11396 {
@@ -523,6 +647,13 @@ body, #container-wrap { background:#ededed; }
 		opacity:1;
 	}
 }
+#item11174 {
+	width:100px !important;
+	left:36px !important;
+	top:183px !important;
+	min-height:26px !important;
+}
+
 @keyframes 왼쪽에서날아오기-11395 {
 	0% {
 		transform:translate(-307px,0px);
@@ -543,6 +674,13 @@ body, #container-wrap { background:#ededed; }
 		opacity:1;
 	}
 }
+#item11204 {
+	width:80px !important;
+	left:46px !important;
+	top:183px !important;
+	min-height:26px !important;
+}
+
 @keyframes 왼쪽에서날아오기-11399 {
 	0% {
 		transform:translate(-307px,0px);
@@ -563,6 +701,13 @@ body, #container-wrap { background:#ededed; }
 		opacity:1;
 	}
 }
+#item10370 {
+	width:80px !important;
+	left:46px !important;
+	top:183px !important;
+	min-height:26px !important;
+}
+
 @keyframes 왼쪽에서날아오기-11443 {
 	0% {
 		transform:translate(-307px,0px);
@@ -583,6 +728,13 @@ body, #container-wrap { background:#ededed; }
 		opacity:1;
 	}
 }
+#item11444 {
+	width:80px !important;
+	left:46px !important;
+	top:183px !important;
+	min-height:26px !important;
+}
+
 @keyframes 왼쪽에서날아오기-11402 {
 	0% {
 		transform:translate(-307px,0px);
@@ -603,6 +755,13 @@ body, #container-wrap { background:#ededed; }
 		opacity:1;
 	}
 }
+#item11099 {
+	width:100px !important;
+	left:36px !important;
+	top:183px !important;
+	min-height:26px !important;
+}
+
 @keyframes 왼쪽에서날아오기-11400 {
 	0% {
 		transform:translate(-307px,0px);
@@ -623,6 +782,13 @@ body, #container-wrap { background:#ededed; }
 		opacity:1;
 	}
 }
+#item11053 {
+	width:80px !important;
+	left:46px !important;
+	top:183px !important;
+	min-height:26px !important;
+}
+
 @keyframes 왼쪽에서날아오기-11401 {
 	0% {
 		transform:translate(-307px,0px);
@@ -643,18 +809,24 @@ body, #container-wrap { background:#ededed; }
 		opacity:1;
 	}
 }
-#item11280 {
-	width:435px !important;
-	height:60px !important;
-	border-radius:27px;
+#item11076 {
+	width:80px !important;
+	left:46px !important;
+	top:183px !important;
+	min-height:26px !important;
+}
+
+#item15934 {
+	width:1072px !important;
+	height:116px !important;
 	background:#002f6c;
 }
 
-#item11277 {
-	width:435px !important;
-	height:60px !important;
-	left:85px !important;
-	top:2028px !important;
+#item15935 {
+	width:924px !important;
+	left:74px !important;
+	top:30px !important;
+	min-height:56px !important;
 }
 
 @keyframes 사라지기-15241 {
@@ -678,7 +850,7 @@ body, #container-wrap { background:#ededed; }
 	width:142px !important;
 	height:186px !important;
 	left:1100px !important;
-	top:966px !important;
+	top:1077px !important;
 }
 
 @keyframes 사라지기-15246 {
@@ -696,52 +868,69 @@ body, #container-wrap { background:#ededed; }
 #item15246 {
 	width:142px !important;
 	height:186px !important;
-	top:966px !important;
+	top:1077px !important;
 }
 
-#item12211 {
-	width:435px !important;
-	height:60px !important;
-	border-radius:27px;
-	background:#002f6c;
+#item12136 {
+	width:1032px !important;
+	left:125px !important;
+	top:866px !important;
+	min-height:1414px !important;
 }
 
-#item12208 {
-	width:435px !important;
-	height:60px !important;
-	left:85px !important;
-	top:2028px !important;
+#item12159 {
+	width:557px !important;
+	left:130px !important;
+	top:254px !important;
+	min-height:115px !important;
+}
+
+#item12182 {
+	width:981px !important;
+	left:130px !important;
+	top:485px !important;
+	min-height:132px !important;
+}
+
+#item12112 {
+	width:1008px !important;
+	left:132px !important;
+	top:1051px !important;
+	min-height:197px !important;
+}
+
+#item11867 {
+	width:349px !important;
+	left:791px !important;
+	top:1268px !important;
+	min-height:36px !important;
 }
 
 #item12386 {
 	width:1028px !important;
 	height:510px !important;
 	left:115px !important;
-	top:1024px !important;
+	top:1350px !important;
 }
 
-@keyframes 사라지기-15252 {
-	0% {opacity:1;}
-	57% {opacity:1;}
-	64% {opacity:0;}
-	100% {opacity:0;}
-}
-@-webkit-keyframes 사라지기-15252 {
-	0% {opacity:1;}
-	57% {opacity:1;}
-	64% {opacity:0;}
-	100% {opacity:0;}
-}
-#item15255 {
-	width:142px !important;
-	height:186px !important;
+#item12390 {
+	width:1196px !important;
+	left:17px !important;
+	top:12px !important;
+	min-height:467px !important;
 }
 
-#item15252 {
-	width:142px !important;
-	height:186px !important;
-	left:1100px !important;
-	top:966px !important;
+#item15971 {
+	width:1072px !important;
+	height:116px !important;
+	background:#002f6c;
+}
+
+#item15972 {
+	width:924px !important;
+	left:74px !important;
+	top:30px !important;
+	min-height:56px !important;
 }
 
 @keyframes 사라지기-15257 {
@@ -759,135 +948,7 @@ body, #container-wrap { background:#ededed; }
 #item15257 {
 	width:142px !important;
 	height:186px !important;
-	top:966px !important;
-}
-
-@keyframes 사라지기-15262 {
-	0% {opacity:1;}
-	57% {opacity:1;}
-	64% {opacity:0;}
-	100% {opacity:0;}
-}
-@-webkit-keyframes 사라지기-15262 {
-	0% {opacity:1;}
-	57% {opacity:1;}
-	64% {opacity:0;}
-	100% {opacity:0;}
-}
-#item15265 {
-	width:142px !important;
-	height:186px !important;
-}
-
-#item15262 {
-	width:142px !important;
-	height:186px !important;
-	left:1100px !important;
-	top:966px !important;
-}
-
-@keyframes 사라지기-15267 {
-	0% {opacity:1;}
-	57% {opacity:1;}
-	64% {opacity:0;}
-	100% {opacity:0;}
-}
-@-webkit-keyframes 사라지기-15267 {
-	0% {opacity:1;}
-	57% {opacity:1;}
-	64% {opacity:0;}
-	100% {opacity:0;}
-}
-#item15267 {
-	width:142px !important;
-	height:186px !important;
-	top:966px !important;
-}
-
-#item15048 {
-	width:435px !important;
-	height:60px !important;
-	border-radius:27px;
-	background:#002f6c;
-}
-
-#item15045 {
-	width:435px !important;
-	height:60px !important;
-	left:85px !important;
-	top:2028px !important;
-}
-
-@keyframes 사라지기-15273 {
-	0% {opacity:1;}
-	57% {opacity:1;}
-	64% {opacity:0;}
-	100% {opacity:0;}
-}
-@-webkit-keyframes 사라지기-15273 {
-	0% {opacity:1;}
-	57% {opacity:1;}
-	64% {opacity:0;}
-	100% {opacity:0;}
-}
-#item15277 {
-	width:142px !important;
-	height:186px !important;
-}
-
-#item15273 {
-	width:142px !important;
-	height:186px !important;
-	left:1100px !important;
-	top:966px !important;
-}
-
-@keyframes 사라지기-15279 {
-	0% {opacity:1;}
-	57% {opacity:1;}
-	64% {opacity:0;}
-	100% {opacity:0;}
-}
-@-webkit-keyframes 사라지기-15279 {
-	0% {opacity:1;}
-	57% {opacity:1;}
-	64% {opacity:0;}
-	100% {opacity:0;}
-}
-#item15279 {
-	width:142px !important;
-	height:186px !important;
-	top:966px !important;
-}
-
-#item7688 {
-	width:1242px !important;
-	height:2172px !important;
-}
-
-#item9830 {
-	width:1125px !important;
-	height:830px !important;
-	left:59px !important;
-	top:1257px !important;
-}
-
-@keyframes 사라지기-15289 {
-	0% {opacity:1;}
-	57% {opacity:1;}
-	64% {opacity:0;}
-	100% {opacity:0;}
-}
-@-webkit-keyframes 사라지기-15289 {
-	0% {opacity:1;}
-	57% {opacity:1;}
-	64% {opacity:0;}
-	100% {opacity:0;}
-}
-#item15289 {
-	width:142px !important;
-	height:186px !important;
-	top:966px !important;
+	top:1077px !important;
 }
 #in5footer,  #prefooter {display:none;}
 
