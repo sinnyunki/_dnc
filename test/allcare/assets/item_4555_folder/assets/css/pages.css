@@ -439,8 +439,8 @@ ul.thumbs > li img { box-shadow:0 0 4px rgba(0, 0, 0, 0.5); }
 
 /*CSS Generated from InDesign Styles*/
 
-body, #container-wrap { background:transparent; }
-:-webkit-full-screen { background:transparent; }
+body, #container-wrap { background:#ededed; }
+:-webkit-full-screen { background:#ededed; }
 #loadIndicator span:after { padding-left:1ex; content:'loading content...'; }
 #slider { width:1136px; height:1350px; }
 .page-scale-wrap { width:1136px; height:1350px; background: #fff !important; }
@@ -477,18 +477,6 @@ body, #container-wrap { background:transparent; }
 	top:1234px !important;
 }
 
-#item1037 {
-	width:141px !important;
-	height:141px !important;
-	left:39px !important;
-}
-
-#item1062 {
-	width:141px !important;
-	height:141px !important;
-	left:276px !important;
-}
-
 #item1142 {
 	width:1136px !important;
 	height:83px !important;
@@ -500,16 +488,14 @@ body, #container-wrap { background:transparent; }
 	height:83px !important;
 }
 
-#item1682 {
+#item1062 {
 	width:141px !important;
 	height:141px !important;
-	left:39px !important;
 }
 
-#item1707 {
+#item1037 {
 	width:141px !important;
 	height:141px !important;
-	left:276px !important;
 }
 
 #item1737 {
@@ -533,6 +519,16 @@ body, #container-wrap { background:transparent; }
 	width:1136px !important;
 	height:116px !important;
 	top:1234px !important;
+}
+
+#item1707 {
+	width:141px !important;
+	height:141px !important;
+}
+
+#item1682 {
+	width:141px !important;
+	height:141px !important;
 }
 
 #item2033 {
